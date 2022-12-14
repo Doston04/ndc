@@ -1,6 +1,6 @@
 import styles from "./HeroSection.module.css";
 
-export function HeroSection() {
+export default function HeroSection() {
   return (
     <div>
       <p>Hero</p>

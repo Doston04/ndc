@@ -1,7 +1,7 @@
 import { Footer } from "./Footer/Footer";
 import { Header } from "./Header/Header";
 
-export function Layout({ children }) {
+export default function Layout({ children }) {
   return (
     <div className="wrapper">
       <Header />
